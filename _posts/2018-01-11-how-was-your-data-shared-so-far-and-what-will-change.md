@@ -6,7 +6,7 @@ description: Why we should bury screen scraping for good and embrace the automat
 
 This post is written in response to [BBC: Why banks will share your financial secrets](https://www.bbc.co.uk/news/amp/business-42253051).
 
-### tl:dr;
+### tl;dr:
 
 > Your data is going to be safer when shared through the Open Banking ecosystem. It will only be accessed by whitelisted entities,
 > only a subset of data will be shared, for a limited time, and you will be able to revoke access whenever you will choose to.

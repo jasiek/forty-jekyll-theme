@@ -4,15 +4,16 @@ title: ‘Open’ Banking Week 1
 description: What has been promised, and what is actually out there?
 ---
 
-tl;dr: The open banking world is now a week old - despite a huge amount of discussion across digital and print media, very little has focused on the actuality (as opposed to the potential), so here is a brief review of what is available.
+### tl;dr:
+> The open banking world is now a week old - despite a huge amount of discussion across digital and print media, very little has focused on the actuality (as opposed to the potential), so here is a brief review of what is available.
 
-## Open Banking Implementation Entity (OBIE)
+### Open Banking Implementation Entity (OBIE)
 
 The Open Banking Implementation Entity have a relatively extensive [website](https://www.openbanking.org.uk) and [Confluence Space](https://openbanking.atlassian.net/wiki/spaces/DZ/overview?mode=global) which detail a great deal about the ecosystem. They have also developed a set of [reference applications](https://github.com/OpenBankingUK/reference-applications/blob/master/tpp-reference-applications.md) including a ‘reference mock server’, which acts as the resource server of an ASPSP implementation, but does very little besides.
 
 If you are minded to, you can [enroll with Open Banking](https://www.openbanking.org.uk/wpcore/wp-content/uploads/2017/12/Open-Banking-How-To-Guide-Enrolling-Onto-Open-Banking-v4.2.pdf), and this will give you a view of their internal reference banks, more akin to full ASPSP implementations, with partial implementation of their custom [OIDC Security Profile](https://bitbucket.org/openid/obuk/src/4630771db004da59992fb201641f5c4ff2c881f1/uk-openbanking-security-profile.md?at=master&fileviewer=file-view-default). Understanding and implementing this is a key part of developing applications for this space, as it is one of the common elements (theoretically) to each ASPSP implementation.
 
-## Banks (ASPSPs)
+### Banks (ASPSPs)
 
 Regrettably, the headline here is less positive. Developer Portals range from the average to the non-existent. Looking at them one by one (details current at the time of writing);
 
@@ -34,7 +35,7 @@ Regrettably, the headline here is less positive. Developer Portals range from th
 
 * Santander - nothing.
 
-## Analysis
+### Analysis
 
 OBIE are currently running a ‘[managed rollout](https://www.openbanking.org.uk/about-us/news/open-banking-begins-managed-roll/)’, which amounts to a select range of Banks working with a select range of Third Parties. It’s unclear how this amounts to being ‘live’ or how this, and the absence of an open, functioning, OIDC compliant sandbox anywhere are actually in the spirit of the legislation. Further, it remains unclear when the general public will have access to applications exercising the Open Banking APIs, which ultimately means being able to control, more effectively, data which is theirs.
 

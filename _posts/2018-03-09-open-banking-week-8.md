@@ -6,9 +6,10 @@ description: TL; DR - some positive developments but the lack of anything tangib
 
 Welcome to the next in a series reviewing open banking in the UK. News items on this topic have died recently, as the excitement around the launch has reduced. With that in mind, this post will focus on a number of positive and negative developments that the community may, or may not be aware of, and then a review of the currently available development portals offered by each of the CMA9.
 
-tl;dr: Some positive developments but the lack of anything tangible in the public view, and stalling from most of the CMA9 means that overall, the project is running at a B-.
+### tl;dr:
+> Some positive developments but the lack of anything tangible in the public view, and stalling from most of the CMA9 means that overall, the project is running at a B-.
 
-## Negative
+### Negative
 
 * We've heard on the grapevine that Open Banking Ltd have extended the [managed rollout](https://www.openbanking.org.uk/about-us/news/open-banking-begins-managed-roll/) that was questioned in our [previous post](http://blog.openbanking.space/2018/01/22/open-banking-week-1.html). This has happened without announcement, thus the concerns voiced two weeks into the initiative remain.
 * We are yet to hear of an example of a service which utilises the OBIE-designed API framework being made available to the public. This clearly depends on both Third Parties and Banks having an offering ready for market, and unlike the latter, there is no regulatory obligation on the former to present such.
@@ -18,14 +19,14 @@ tl;dr: Some positive developments but the lack of anything tangible in the publi
 
 As with everything Brexit-related, nothing is set in stone, but this looks to have major implications for the open banking ecosystem, which is built on the PSD2 principles of interoperability through common technical standards, and the ability of organisations to interact throughout Europe with one regulatory registration. It's also confusing given that the UK was one of the Payment Services Directives' (i.e. both 1 and 2) biggest advocates, not least because of the huge competitive advantage London has in the fintech market. Time will tell what the effects of this approach are, but the speech certainly makes establishing a base in an EU member a strategic move for any businesses seeking to a European customer base post-Brexit.
 
-## Positive
+### Positive
 
 *   Open Banking Ltd has [released a second version](https://www.openbanking.org.uk/about-us/news/open-banking-announces-new-read-write-api-release/) of its API Standards. Whilst a positive step toward further PSD2 coverage, the release is limited to extended coverage of account types and product data points, as opposed to being an enrichment of the data already available as part of their account information API design.
 *   Two freely available sandboxes which use the OBIE standard have been made public;
     *   [ForgeRock](https://backstage.forgerock.com/knowledge/openbanking/article/a29418223) - a group of Digital Identity experts, have produced a facility with a [broad range of information](https://backstage.forgerock.com). From our initial review, the content is good and helpful for navigating through integration and building applications.
     *   [O3-Ozone](https://o3bank.com) -  a new player in the ecosystem, with a very user-friendly website and a series of useful demonstration videos to guide developers through interaction. 
 
-## CMA9 Developer Portal Review
+### CMA9 Developer Portal Review
 
 We previously pointed to the lack of CMA9-provided developer facilities as being one of the major barriers to entry for those seeking to bring applications using the Order-backed initiative to live. They have clearly moved on somewhat, so here's a quick review of the changes we've seen.
 
