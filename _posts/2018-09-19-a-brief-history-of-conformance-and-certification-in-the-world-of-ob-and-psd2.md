@@ -1,6 +1,7 @@
 ---
 layout: post
 title: A Brief History of Conformance and Certification in the World of Open Banking / PSD2
+author: jha
 ---
 
 Those reading the FCA's [CP18-25 Paper](https://www.fca.org.uk/publication/consultation/cp18-25.pdf) on its approach to the PSD2 Regulatory Technical Standards (RTS) will note the references to 'conformance testing'. This is not a novel concept in the UK - it was developed out of the [OpenID Foundation](https://openid.net/foundation/)'s [approach to certification](https://openid.net/certification/) for implementers of OpenID Connect. To facilitate open banking, the Open Banking Implementation Entity (OBIE) developed a [draft security profile](https://bitbucket.org/openid/obuk/src/f7d1f6eb7b06658e890e9a1ee18965821f375911/uk-openbanking-security-profile.md?at=master&fileviewer=file-view-default) which dictates how connections between ASPSPs (banks) and third parties (TPPs) should be secured. This profile is currently on a trajectory where, as a consequence of the need to align around eIDAS certificates as the sole means of identification, the industry will align to the [Financial-Grade API Security Profile](https://bitbucket.org/openid/fapi/src) (FAPI), in its second version. This profile is agnostic of jurisdictional/regulatory context, and is being leveraged for most of the open banking initiatives going on around the world today.
